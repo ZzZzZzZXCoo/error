@@ -9,7 +9,7 @@ clear
 echo -e   ""
 cat /usr/bin/bannerku | lolcat
 echo -e ""
-echo -e "---------------------------System Information------------------------"
+echo -e "-----------------------System Information--------------------" | lolcat
 echo -e "$gren Name ISP:\t\t"`curl -s ipinfo.io/org | cut -d " " -f 2-10`
 echo -e "$gren Hostname:\t\t"`hostname`
 echo -e "$gren Manufacturer:\t\t"`cat /sys/class/dmi/id/chassis_vendor`
