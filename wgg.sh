@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo -e "════════════════════════════════" | lolcat
-echo -e "════════[Wireguard Account]════════"
+echo -e "═══════[Wireguard Account]═══════"
 echo -e "════════════════════════════════" | lolcat
 echo -e "1.  Create Wireguard Account"
 echo -e "2.  Delete Wireguard Account"
