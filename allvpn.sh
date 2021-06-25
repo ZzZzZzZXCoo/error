@@ -6,6 +6,8 @@ yelow="\e[1;33m"
 cyan="\e[1;36m"
 white="\e[1;37m"
 clear
+cat /usr/bin/bannerku | lolcat
+echo -e ""
 echo -e "═══════════════════════════════" | lolcat
 echo -e "$gren═══════$white[All Account VPN]$gren════════"
 echo -e "═══════════════════════════════" | lolcat
