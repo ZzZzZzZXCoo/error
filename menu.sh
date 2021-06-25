@@ -15,8 +15,8 @@ echo -e "$gren Hostname:\t\t"`hostname`
 echo -e "$gren Manufacturer:\t\t"`cat /sys/class/dmi/id/chassis_vendor`
 echo -e "$gren Machine Type:\t\t"`vserver=$(lscpu | grep Hypervisor | wc -l); if [ $vserver -gt 0 ]; then echo "VM"; else echo "Physical"; fi`
 echo -e "$gren Operating System:\t"`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`
-echo -e "$gren Kernel:\t\t\t"`uname -r`
-echo -e "$gren Uptime:\t\t\t"`uptime | awk '{print $3,$4}' | sed 's/,//'`
+echo -e "$gren Kernel:\t\t"`uname -r`
+echo -e "$gren Uptime:\t\t"`uptime | awk '{print $3,$4}' | sed 's/,//'`
 echo -e  ""
 echo -e " $red═════════════════════════════════"
 echo -e " $yelow═════$white[Panel All VPN Account]$yelow═════"
