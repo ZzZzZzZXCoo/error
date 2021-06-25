@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo -e " ════════════════════════════════" | lolcat
-echo -e " ════════[SSR & SS Account]═════════"
+echo -e " ═══════[SSR & SS Account]════════"
 echo -e " ════════════════════════════════" | lolcat
 echo -e " ══════[SSR Account]═════" | lolcat
 echo -e " 1.  Create SSR Account"
