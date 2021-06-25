@@ -21,7 +21,7 @@ echo -e " $red 8. $white Set up Autokill SSH"
 echo -e " $red 9. $white Displays Users Who Do Multi Login SSH"
 echo -e " $red 10. $white Restart Service Dropbear, Squid3, OpenVPN dan SSH"
 echo -e " $red════════════════════════════════"
-echo -e " $red x. $white Kembali ke Menu Utama"
+echo -e " $$white   EnterKembali ke Menu Utama"
 echo -e " $gren════════════════════════════════"
 echo -e ""
 read -p "  Please Input Number  [1-10 or x] :  " ssh
@@ -57,7 +57,7 @@ ceklim
 10)
 restart
 ;;
-x)
+*)
 menu
 ;;
 esac
