@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo -e " ════════════════════════════════" | lolcat
-echo -e " ════════[All Account V2Ray]════════"
+echo -e " ═══════[All Account V2Ray]═══════"
 echo -e " ════════════════════════════════" | lolcat
 echo -e " ═══════[V2Ray Vmess]═══════" | lolcat
 echo -e " 1.  Create Vmess Websocket Account"
