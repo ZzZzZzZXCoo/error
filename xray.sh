@@ -1,28 +1,34 @@
 #!/bin/bash
+red="\e[1;31m"
+gren="\e[1;32m"
+blue="\e[1;34m"
+yelow="\e[1;33m"
+cyan="\e[1;36m"
+white="\e[1;37m"
 clear
-echo -e " ════════════════════════════════" | lolcat
-echo -e " ═══════[All Account V2Ray]═══════"
-echo -e " ════════════════════════════════" | lolcat
-echo -e " ═══════[V2Ray Vmess]═══════" | lolcat
-echo -e " 1.  Create Vmess Websocket Account"
-echo -e " 2.  Delete Vmess Websocket Account"
-echo -e " 3.  Renew Vmess Account"
-echo -e " 4.  Check User Login Vmess"
+echo -e "════════════════════════════════" | lolcat
+echo -e "$gren═══════$white[All Account V2Ray]$gren═══════"
+echo -e "════════════════════════════════" | lolcat
+echo -e "═══════[V2Ray Vmess]═══════" | lolcat
+echo -e "$red 1. $white Create Vmess Websocket Account"
+echo -e "$red 2. $white Delete Vmess Websocket Account"
+echo -e "$red 3. $white Renew Vmess Account"
+echo -e "$red 4. $white Check User Login Vmess"
 echo -e ""
-echo -e " ═══════[V2Ray Vless]═══════" | lolcat
-echo -e " 5.  Create Vless Websocket Account"
-echo -e " 6.  Deleting Vless Websocket Account"
-echo -e " 7.  Renew Vless Account "
-echo -e " 8.  Check User Login Vless"
+echo -e "═══════[V2Ray Vless]═══════" | lolcat
+echo -e "$red 5. $white Create Vless Websocket Account"
+echo -e "$red 6. $white Deleting Vless Websocket Account"
+echo -e "$red 7. $white Renew Vless Account "
+echo -e "$red 8. $white Check User Login Vless"
 echo -e ""
-echo -e " ═════════[Trojan]═════════" | lolcat
-echo -e " 9.  Create Trojan Account"
-echo -e " 10.  Deleting Trojan Account"
-echo -e " 11.  Renew Trojan Account"
-echo -e " 12.  Check User Login Trojan"
-echo -e " ════════════════════════════════"
-echo -e " x.  Kembali ke Menu Utama"
-echo -e " ════════════════════════════════"
+echo -e "═════════[Trojan]═════════" | lolcat
+echo -e "$red 9. $white Create Trojan Account"
+echo -e "$red 10. $white Deleting Trojan Account"
+echo -e "$red 11. $white Renew Trojan Account"
+echo -e "$red 12. $white Check User Login Trojan"
+echo -e "════════════════════════════════" | lolcat
+echo -e "$white Enter Kembali ke Menu Utama"
+echo -e "════════════════════════════════" | lolcat
 echo -e ""
 read -p "     Please Input Number  [1-12 or x] :  " xray
 echo -e ""
