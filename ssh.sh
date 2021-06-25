@@ -6,7 +6,8 @@ yelow="\e[1;33m"
 cyan="\e[1;36m"
 white="\e[1;37m"
 clear
-echo -e   ""
+cat /usr/bin/bannerku | lolcat
+echo -e ""
 echo -e " ════════════════════════════════" | lolcat
 echo -e " $gren══════$white[SSH & OpenVPN Menu]$gren═══════"
 echo -e " ════════════════════════════════" | lolcat
