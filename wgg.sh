@@ -1,15 +1,21 @@
 #!/bin/bash
+red="\e[1;31m"
+gren="\e[1;32m"
+blue="\e[1;34m"
+yelow="\e[1;33m"
+cyan="\e[1;36m"
+white="\e[1;37m"
 clear
 echo -e "════════════════════════════════" | lolcat
-echo -e "═══════[Wireguard Account]═══════"
+echo -e "$gren═══════$white[Wireguard Account]$gren═══════"
 echo -e "════════════════════════════════" | lolcat
-echo -e "1.  Create Wireguard Account"
-echo -e "2.  Delete Wireguard Account"
-echo -e "3.  Check User Login Wireguard"
-echo -e "4.  Renew Wireguard Account Active Life"
-echo -e " ═══════════════════════════════" | lolcat
-echo -e " x.  Kembali ke Menu Utama"
-echo -e " ═══════════════════════════════" | lolcat
+echo -e "$red 1. $white Create Wireguard Account"
+echo -e "$red 2. $white Delete Wireguard Account"
+echo -e "$red 3. $white Check User Login Wireguard"
+echo -e "$red 4. $white Renew Wireguard Account Active Life"
+echo -e "═══════════════════════════════" | lolcat
+echo -e "$white  Enter Kembali ke Menu Utama"
+echo -e "═══════════════════════════════" | lolcat
 echo -e ""
 read -p "     Please Input Number  [1-4 or x] :  " wgg
 echo -e ""
