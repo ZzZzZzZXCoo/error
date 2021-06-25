@@ -17,7 +17,7 @@ echo -e "$gren Machine Type:\t\t"`vserver=$(lscpu | grep Hypervisor | wc -l); if
 echo -e "$gren Operating System:\t"`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`
 echo -e "$gren Kernel:\t\t"`uname -r`
 echo -e "$gren Uptime:\t\t"`uptime | awk '{print $3,$4}' | sed 's/,//'`
-echo -e "$gren AutoScript by:\t\t" `$white KeweK`
+echo -e "$gren Telegram:\t\thttps://t.me/DariTZYJadiEZY"
 echo -e  ""
 echo -e " $red═════════════════════════════════"
 echo -e " $yelow═════$white[Panel All VPN Account]$yelow═════"
