@@ -8,7 +8,7 @@ white="\e[1;37m"
 clear
 echo -e   ""
 echo -e " $red════════════════════════════════"
-echo -e " $yelow═══════$white[SSH & OpenVPN Menu]$yelow════════"
+echo -e " $yelow══════$white[SSH & OpenVPN Menu]$yelow═══════"
 echo -e " $gren════════════════════════════════"
 echo -e " $red 1. $white Create SSH & OpenVPN Account"
 echo -e " $red 2. $white Generate Trial Account SSH & OpenVPN"
