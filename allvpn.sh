@@ -1,26 +1,32 @@
 #!/bin/bash
+red="\e[1;31m"
+gren="\e[1;32m"
+blue="\e[1;34m"
+yelow="\e[1;33m"
+cyan="\e[1;36m"
+white="\e[1;37m"
 clear
-echo -e " ═══════════════════════════════" | lolcat
-echo -e " ═══════[All Account VPN]════════"
-echo -e " ═══════════════════════════════" | lolcat
-echo -e " ═══════[L2TP Account]═══════" | lolcat
-echo -e " 1.  Creating L2TP Account"
-echo -e " 2.  Deleting L2TP Account"
-echo -e " 3.  Renew L2TP Account"
+echo -e "═══════════════════════════════" | lolcat
+echo -e "$gren═══════$white[All Account VPN]$gren════════"
+echo -e "═══════════════════════════════" | lolcat
+echo -e "═══════[L2TP Account]═══════" | lolcat
+echo -e "$red 1. $white Creating L2TP Account"
+echo -e "$red 2. $white Deleting L2TP Account"
+echo -e "$red 3. $white Renew L2TP Account"
 echo -e ""
-echo -e " ═══════[PPTP Account]═══════" | lolcat
-echo -e " 4.  Create Account PPTP"
-echo -e " 5.  Delete PPTP Account"
-echo -e " 6.  Renew PPTP Account"
-echo -e " 7.  Check User Login PPTP"
+echo -e "═══════[PPTP Account]═══════" | lolcat
+echo -e "$red 4. $white Create Account PPTP"
+echo -e "$red 5. $white Delete PPTP Account"
+echo -e "$red 6. $white Renew PPTP Account"
+echo -e "$red 7. $white Check User Login PPTP"
 echo -e ""
-echo -e " ═══════[SSTP Account]═══════" | lolcat
-echo -e " 8.  Create Account SSTP"
-echo -e " 9.  Delete SSTP Account"
-echo -e " 10.  Renew SSTP Account"
-echo -e " 11.  Check User Login SSTP"
+echo -e "═══════[SSTP Account]═══════" | lolcat
+echo -e "$red 8. $white Create Account SSTP"
+echo -e "$red 9. $white Delete SSTP Account"
+echo -e "$red 10. $white Renew SSTP Account"
+echo -e "$red 11. $white Check User Login SSTP"
 echo -e " ═══════════════════════════════" | lolcat
-echo -e " x.  Kembali ke Menu Utama"
+echo -e " $white  Enter Kembali ke Menu Utama"
 echo -e " ═══════════════════════════════" | lolcat
 echo -e ""
 read -p "     Please Input Number  [1-11 or x] :  " allvpn
