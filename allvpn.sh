@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo -e " ═══════════════════════════════" | lolcat
-echo -e " ════════[All Account VPN]═════════"
+echo -e " ═══════[All Account VPN]════════"
 echo -e " ═══════════════════════════════" | lolcat
 echo -e " ═══════[L2TP Account]═══════" | lolcat
 echo -e " 1.  Creating L2TP Account"
