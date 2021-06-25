@@ -8,7 +8,7 @@ wget -q -O xray "https://raw.githubusercontent.com/ZzZzZzZXCoo/error/main/xray.s
 wget -q -O ssrss "https://raw.githubusercontent.com/ZzZzZzZXCoo/error/main/ssrss.sh"
 wget -q -O allvpn "https://raw.githubusercontent.com/ZzZzZzZXCoo/error/main/allvpn.sh"
 chmod +x menu
-chmod +x ssh
+chmod +x shsh
 chmod +x wgg
 chmod +x xray
 chmod +x ssrss
