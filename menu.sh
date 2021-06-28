@@ -12,8 +12,8 @@ echo -e ""
 echo -e "---------------------System Information------------------" | lolcat
 echo -e "$gren Name ISP:\t\t"`curl -s ipinfo.io/org | cut -d " " -f 2-10`
 echo -e "$gren Hostname:\t\t"`hostname`
-echo -e "$gren Manufacturer:\t\t"`cat /sys/class/dmi/id/chassis_vendor`
-echo -e "$gren Machine Type:\t\t"`vserver=$(lscpu | grep Hypervisor | wc -l); if [ $vserver -gt 0 ]; then echo "VM"; else echo "Physical"; fi`
+echo -e "$gren Region:\t\t"`curl -s ipinfo.io/city`
+echo -e "$gren Time:\t\t"`curl -s ipinfo.io/timezone`
 echo -e "$gren Operating System:\t"`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`
 echo -e "$gren Kernel:\t\t"`uname -r`
 echo -e "$gren Uptime:\t\t"`uptime | awk '{print $3,$4}' | sed 's/,//'`
