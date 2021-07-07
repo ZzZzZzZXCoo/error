@@ -44,6 +44,7 @@ echo -e " $red 15. $white Reboot VPS"
 echo -e " $red 16. $white Speedtest VPS"
 echo -e " $red 17. $white Information Display System"
 echo -e " $red 18. $white Info Script Auto Install"
+echo -e " $red 18. $white Set Auto Reboot"
 echo -e " $red══════════════════════════════════════════"
 echo -e " $red x. $white Exit From Putty/JuiceSSH/Termux"
 echo -e " $gren══════════════════════════════════════════"
@@ -104,6 +105,9 @@ info
 ;;
 18)
 about
+;;
+19)
+auto-reboot
 ;;
 x)
 exit
