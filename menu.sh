@@ -13,7 +13,7 @@ echo -e "---------------------System Information------------------" | lolcat
 echo -e "$gren Name ISP:\t\t"`curl -s ipinfo.io/org | cut -d " " -f 2-10`
 echo -e "$gren Hostname:\t\t"`hostname`
 echo -e "$gren Region:\t\t"`curl -s ipinfo.io/city`
-echo -e "$gren Time:\t\t"`curl -s ipinfo.io/timezone`
+echo -e "$gren Time:\t\t\t"`curl -s ipinfo.io/timezone`
 echo -e "$gren Operating System:\t"`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`
 echo -e "$gren Kernel:\t\t"`uname -r`
 echo -e "$gren Uptime:\t\t"`uptime | awk '{print $3,$4}' | sed 's/,//'`
